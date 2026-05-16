@@ -1,34 +1,30 @@
-# Credit Approval Prediction System 💰🤖
+# Credit Approval Prediction App
 
-An end-to-end Machine Learning project that predicts credit application approval based on user financial metrics. The project covers the full pipeline: from exploratory data analysis (EDA) and model training in Google Colab to deploying an interactive web application using Streamlit.
+A Machine Learning project for predicting credit application approval based on financial data. The repository includes data preprocessing and model training developed in Google Colab, as well as an interactive web interface built with Streamlit.
 
-## 🚀 Project Overview
+## Project Overview
 * **Task:** Binary Classification (Approved / Denied)
-* **Research & Training:** Google Colab (`credit-approval-prediction.ipynb`)
-* **Web Interface:** Streamlit app (`app.py`)
-* **Core Stack:** Python, Scikit-Learn, Pandas, NumPy, Streamlit
+* **Training Environment:** Google Colab (`credit-approval-prediction.ipynb`)
+* **Deployment Interface:** Streamlit (`app.py`)
+* **Tech Stack:** Python, Scikit-Learn, Pandas, NumPy, Streamlit
 
-## 📂 Repository Structure
-* `credit-approval-prediction.ipynb` - Jupyter notebook containing data cleaning, visualization, feature engineering, and model training.
-* `app.py` - Core Streamlit application code for the interactive user interface.
-* `loan_approval_model.pkl` - Serialized file of the best-performing trained ML model.
-* `.gitignore` - Configuration file to exclude local virtual environments (`venv`) from tracking.
+## Repository Structure
+* `credit-approval-prediction.ipynb` - Jupyter notebook with EDA, data cleaning, and model training.
+* `app.py` - Streamlit application code.
+* `loan_approval_model.pkl` - Trained model weights.
+* `.gitignore` - Configuration file to exclude virtual environment (`venv`).
 
-## 🛠️ How to Run the App Locally
+## How to Run Locally
 
-1. Clone this repository:
+1. Clone the repository:
    ```bash
    git clone https://github.com
    ```
-2. Navigate to the project directory:
-   ```bash
-   cd credit-approval-prediction
-   ```
-3. Install required libraries:
+2. Install dependencies:
    ```bash
    pip install streamlit scikit-learn pandas numpy
    ```
-4. Launch the Streamlit web application:
+3. Run the application:
    ```bash
    streamlit run app.py
    ```
